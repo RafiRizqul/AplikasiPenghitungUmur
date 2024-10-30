@@ -8,10 +8,15 @@
  *
  * @author ACER
  */
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import org.json.JSONObject;
 
 public class PenghitungUmurFrame extends javax.swing.JFrame {
 
@@ -271,7 +276,8 @@ public class PenghitungUmurFrame extends javax.swing.JFrame {
             }
         });
     }
-
+    
+   
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnHitung;
     private javax.swing.JButton btnKeluar;
